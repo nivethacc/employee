@@ -1,0 +1,47 @@
+{
+	"recordCount" : 5,
+	"data":
+	[
+		{
+		"empId": "24789",
+		"firstName": "Suzuki",
+		"lastName": "David Tarou",
+		"contactNum": "9993421902",
+		"emailAddress": "Suzuki.David@example.com",
+		"gender": "Female",
+		"level": 10,
+		"post" : "Senior App Developer"
+		},
+		{
+		"empId": "24790",
+		"firstName": "Taro",
+		"lastName": "Joe",
+		"contactNum": "9993421972",
+		"emailAddress": "Taro.Joe@test.com",
+		"gender": "Male",
+		"level": 11,
+		"post" : "Bridge SE"
+		},
+		{
+		"empId": "42390",
+		"firstName": "Hidemi",
+		"lastName": "Tanaka",
+		"contactNum": "7793421902",
+		"emailAddress": "Hidemo.Tanaka@yahoo.com",
+		"gender": "Male",
+		"level": 12,
+		"post" : "Project Manager"
+		},
+		{
+		"empId": "34781",
+		"firstName": "Maria",
+		"lastName": "Robert",
+		"contactNum": "8093421901",
+		"emailAddress": "Robert.Maria@gmail.com",
+		"gender": "Male",
+		"level": 9,
+		"post" : "Associate Developer"
+		}
+	]
+	
+}

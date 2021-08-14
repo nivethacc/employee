@@ -1,0 +1,17 @@
+{
+	"empId": "24789",
+	"firstName": "Suzuki",
+	"lastName": "David Tarou",
+	"gender": "Female",
+	"level": 10,
+	"contactNum": "9993421902",
+	"emailAddress": "Suzuki.David@example.com",
+	"personalMail": "Suzuki763@gmail.com",
+	"post": "Senior App Developer",
+	"dateOfBirth": "1986-09-20",
+	"joiningDate": "2019-10-30",
+	"bloodGroup": "B+",
+	"basicPay": "934242",
+	"aadharCardNo": "9838-2201-4433-5678",
+	"address": " House no: 456, Block: D2 Alex Road , Newyork"
+}
