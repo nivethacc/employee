@@ -16,6 +16,7 @@ const bloodGroups = [
   { key: 'B-',value: 'B-'},
   { key: 'AB-',value: 'AB-'},
 ];
+
 const levels = [
   { key: '7',value: '7'},
   { key: '8',value: '8'},
@@ -56,8 +57,8 @@ export class EmployeeData extends Component {
         
     };
   }
-  fieldRef = React.createRef();
 
+  fieldRef = React.createRef();
   form = React.createRef()
 
   async componentDidMount() {
@@ -68,11 +69,11 @@ export class EmployeeData extends Component {
 
 componentWillUnmount()
 {
-
     this.removeCustomValidationRule()
    
 }
 
+ //adds custom validation to fields
 addcustomValidation()
 {
 
@@ -138,7 +139,7 @@ ValidatorForm.addValidationRule("gender", (val) => {
 
 }
 
-
+//removes the added custom validation to fields
 removeCustomValidationRule(){
 
 ValidatorForm.removeValidationRule("onlyAlpha");
@@ -149,7 +150,8 @@ ValidatorForm.removeValidationRule("dateFormat");
 ValidatorForm.removeValidationRule("ageValidate");
 }
 
-  handle_change(event) {
+//sets value to fields when onChange
+handle_change(event) {
     
     const { employee } = this.state;
     employee[event.target.name] = event.target.value;
@@ -158,14 +160,18 @@ ValidatorForm.removeValidationRule("ageValidate");
     })
 }
 
+//onClicking the Cancel button
 cancel = ()=>{
  this.props.cancelAddEmployee()
 }
 
+//onForm Submit (*Currently no action performed)
 submitForm = ()=>{
   console.log(this.form)
     console.log("Submitted")
 }
+
+//sets value for the Select box
 setValue = (newValue,fieldName) => {
   const { employee } = this.state;
   if(newValue){
@@ -185,7 +191,7 @@ setValue = (newValue,fieldName) => {
 
       <div style={{width:"50%",margin:"0 auto"}}>
       {this.state.submitError?<div>Form has invalid input data, please correct the errors and submit again!!!</div>:""}
-<br/>
+      <br/>
       <Grid container spacing={3}>
         <Grid item xs>
         </Grid>

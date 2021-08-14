@@ -15,6 +15,7 @@ console.log(rows)
 
 export class EmployeeList extends Component {
 
+    //OnClicking the Details Link
     onSelectEmployee = (eid) => {
         this.props.selectedEmployee(eid);
     }

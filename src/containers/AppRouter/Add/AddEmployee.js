@@ -3,6 +3,7 @@ import { EmployeeData } from '../../../components/EmployeeData';
 
 export class AddEmployee extends Component {
 
+    //passing props to AppRouter(parent) component onClicking CancelButton
     cancelAddEmployee = () => {
     this.props.cancelAddEmployee()
     }

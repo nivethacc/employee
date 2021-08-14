@@ -3,6 +3,7 @@ import {EmployeeDetails} from '../../../components/EmployeeDetails'
 
 export class ViewDetails extends Component {
 
+    //passing props to AppRouter(parent) component onClicking Back Button
     backToHome = ()=>{
         this.props.backToHome()
     }

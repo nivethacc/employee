@@ -4,10 +4,12 @@ import Button from '@material-ui/core/Button';
 
 export class Home extends Component {
 
-
+   //passing props to AppRouter(parent) component
     addEmployee = ()=>{
         this.props.addEmployee();
     }
+
+    //passing EmployeeID to AppRouter(parent) component
     getSelectedEmployee = (eid) => {
         this.props.selectedEmployee(eid);
 }

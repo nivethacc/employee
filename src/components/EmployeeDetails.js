@@ -14,6 +14,7 @@ rows.push(data)
 
 export class EmployeeDetails extends Component {
 
+    //returns a new array with names and values to be displayed
     setDisplayNames(entries)
     {
         let newEntry = entries.map(entry => {
